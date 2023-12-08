@@ -36,8 +36,8 @@ public class KadaiFirstController {
         return "実行結果:" + res;
     }
 
-    @GetMapping("/divibe/{val1}/{val2}")
-    public String calcDivibe(@PathVariable int val1, @PathVariable int val2) {
+    @GetMapping("/divide/{val1}/{val2}")
+    public String calcDivide(@PathVariable int val1, @PathVariable int val2) {
         int res = val1 / val2;
         return "実行結果:" + res;
     }
